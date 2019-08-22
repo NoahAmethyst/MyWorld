@@ -1,0 +1,8 @@
+controller\DemoController.class
+service\DemoServiceI.class
+model\Stu.class
+service\impl\DemoServiceImpl.class
+test\TestDemo.class
+model\User.class
+mapper\DemoMapper.class
+util\MyBatisUtils.class

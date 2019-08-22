@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper
+                PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.DemoMapper">
+
+   <resultMap id="userMap" type="model.User">
+        <id property="userId" column="user_id"/>
+        <result property="loginName" column="login_name"/>
+        <result property="userName" column="user_name"/>
+        <result property="roleName" column="role_name"/>
+        <result property="deptName" column="dept_name"/>
+        <result property="postName" column="post_name"/>
+<!--        <collection property="menu" column="menu_id" select="mapper.DeptMapper.getById"/>-->
+        </resultMap>
+
+    <select id="getAll" resultType="model.Stu">
+        select id,name from stu
+    </select>
+
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
+        insert into stu(name) values(#{name})
+    </insert>
+
+    <select id="getById" resultMap="userMap">
+        select * from sys_user u
+        left join sys_user_role ur
+        on u.user_id=ur.user_id
+        left join sys_role r
+        on ur.role_id=r.role_id
+        left join sys_user_post up
+        on u.user_id=up.user_id
+        left join sys_post p
+        on up.post_id=p.post_id
+        left join sys_role_dept sd
+        on ur.role_id=sd.role_id
+        left join sys_dept d
+        on sd.dept_id=d.dept_id
+        left join sys_role_menu rm
+        on r.role_id=rm.role_id
+        left join sys_menu m
+        on rm.menu_id=m.menu_id
+       where u.user_id=#{id}
+       and d.parent_id=0
+
+
+    </select>
+
+
+</mapper>

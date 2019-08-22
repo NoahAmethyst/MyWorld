@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="properties/db.properties"/>
+    <settings>
+        <!-- 打开延迟加载 的开关 -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!-- 将积极加载改为消极加载即按需要加载 -->
+        <setting name="aggressiveLazyLoading" value="false"/>
+<!--        启用二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+<!--        启用驼峰命名-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+<!--    &lt;!&ndash;    类型别名&ndash;&gt;-->
+<!--    <typeAliases>-->
+<!--        &lt;!&ndash;        类级别&ndash;&gt;-->
+<!--        &lt;!&ndash;        <typeAlias type="net.wanho.po.Student" alias="Student"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;        包级别&ndash;&gt;-->
+<!--        <package name="model"/>-->
+<!--    </typeAliases>-->
+
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!-- 不能设置dialect，最新版本中 -->
+            <!--自动匹配Oracle,Mysql,MariaDB,SQLite,Hsqldb,PostgreSQL-->
+        </plugin>
+    </plugins>
+
+<!--    <environments default="mysql">-->
+<!--        <environment id="mysql">-->
+<!--            &lt;!&ndash;            jdbc事务&ndash;&gt;-->
+<!--            <transactionManager type="JDBC"/>-->
+<!--            &lt;!&ndash;            连接池&ndash;&gt;-->
+<!--            <dataSource type="POOLED">-->
+<!--                <property name="driver" value="${jdbc.driver}"/>-->
+<!--                <property name="url" value="${jdbc.url}"/>-->
+<!--                <property name="username" value="${jdbc.username}"/>-->
+<!--                <property name="password" value="${jdbc.password}"/>-->
+<!--            </dataSource>-->
+<!--        </environment>-->
+<!--    </environments>-->
+
+<!--    <mappers>-->
+<!--        &lt;!&ndash;        接口映射文件&ndash;&gt;-->
+<!--        &lt;!&ndash;        文件级别&ndash;&gt;-->
+<!--        &lt;!&ndash;        <mapper resource="net/wanho/mapper/PersonMapper.xml"/>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;        包级别&ndash;&gt;-->
+<!--        <package name="mapper"/>-->
+<!--    </mappers>-->
+
+
+
+</configuration>
