@@ -7,51 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e50647b5-fbf2-4f94-bd22-01e53cfae801" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DemoI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/DemoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Stu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/DemoServiceI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/DemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/MyBatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/applicationContext-trans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/mapper/demomapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/properties/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext-trans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/DemoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/DemoMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/demomapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Stu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/properties/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/service/DemoServiceI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/service/impl/DemoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test/TestDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/util/MyBatisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-08-21" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -150,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/TestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="355">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -401,7 +357,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -602,8 +558,16 @@
       <workItem from="1566371498050" duration="374000" />
       <workItem from="1566371908384" duration="3216000" />
       <workItem from="1566375156959" duration="10584000" />
-      <workItem from="1566437213964" duration="1423000" />
+      <workItem from="1566437213964" duration="4142000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1566442652524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566442652524</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -639,10 +603,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18756000" />
+    <option name="totallyTimeSpent" value="21475000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1032" extended-state="0" />
+    <frame x="0" y="0" width="960" height="1032" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5733634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -681,6 +646,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/UserServiceImpl.java" />
@@ -840,8 +809,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="355">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
